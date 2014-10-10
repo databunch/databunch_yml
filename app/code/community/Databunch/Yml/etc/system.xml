@@ -7,7 +7,7 @@
     </tabs>
     <sections>
         <yml translate="label" module="yml">
-            <label>Yml Export</label>
+            <label>YML Export</label>
             <tab>databunch</tab>
             <frontend_type>text</frontend_type>
             <sort_order>100</sort_order>
@@ -17,7 +17,7 @@
             <groups>
                 <!-- info -->
                 <shop_info translate="label" module="yml">
-                    <label>General shop info for yml file</label>
+                    <label>General shop info for YML file</label>
                     <frontend_type>text</frontend_type>
                     <sort_order>10</sort_order>
                     <show_in_default>1</show_in_default>
@@ -26,7 +26,6 @@
                     <fields>
                         <name translate="label comment">
                             <label>Name</label>
-                            <comment><![CDATA[* required]]></comment>
                             <frontend_type>text</frontend_type>
                             <sort_order>10</sort_order>
                             <show_in_default>1</show_in_default>
@@ -35,7 +34,7 @@
                         </name>
                         <company translate="label comment">
                             <label>Company</label>
-                            <comment><![CDATA[Full name of your company * required]]></comment>
+                            <comment><![CDATA[Full name of your company]]></comment>
                             <frontend_type>text</frontend_type>
                             <sort_order>20</sort_order>
                             <show_in_default>1</show_in_default>
@@ -46,7 +45,7 @@
                             <label>Local delivery cost</label>
                             <comment><![CDATA[Default local delivery cost]]></comment>
                             <frontend_type>text</frontend_type>
-                            <sort_order>20</sort_order>
+                            <sort_order>30</sort_order>
                             <show_in_default>1</show_in_default>
                             <show_in_website>1</show_in_website>
                             <show_in_store>1</show_in_store>
@@ -54,7 +53,7 @@
                     </fields>
                 </shop_info>
                 <yandex translate="label" module="yml">
-                    <label>Yandex yml export</label>
+                    <label>Yandex Market Export</label>
                     <frontend_type>text</frontend_type>
                     <sort_order>20</sort_order>
                     <show_in_default>1</show_in_default>
@@ -64,7 +63,7 @@
                         <!-- info -->
                         <enabled translate="label comment">
                             <label>Enabled</label>
-                            <comment><![CDATA[If Yes and Magento cron enabled - yml file for Yandex Market will be automatically generated every 2 hours.]]></comment>
+                            <comment><![CDATA[If Yes and Magento cron enabled - YML file for Yandex Market will be automatically generated every 2 hours.]]></comment>
                             <frontend_type>select</frontend_type>
                             <source_model>adminhtml/system_config_source_yesno</source_model>
                             <sort_order>10</sort_order>
@@ -74,7 +73,7 @@
                         </enabled>
                         <generate translate="label comment">
                             <label>Generate now</label>
-                            <comment><![CDATA[Generate yml file for Yandex Market right now]]></comment>
+                            <comment><![CDATA[Generate YML file for Yandex Market right now]]></comment>
                             <frontend_type>button</frontend_type>
                             <frontend_model>yml/adminhtml_yandex_generate</frontend_model>
                             <sort_order>20</sort_order>

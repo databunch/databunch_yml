@@ -9,7 +9,7 @@ class Databunch_Yml_Block_Adminhtml_Yandex_Generate extends Mage_Adminhtml_Block
         $html = $this->getLayout()->createBlock('adminhtml/widget_button')
             ->setType('button')
             ->setClass('scalable')
-            ->setLabel('Generate !')
+            ->setLabel($this->__('Run'))
             ->setOnClick("setLocation('$url')")
             ->toHtml();
 

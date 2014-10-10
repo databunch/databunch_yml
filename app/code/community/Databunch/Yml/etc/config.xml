@@ -36,6 +36,15 @@
                 </admin>
             </resources>
         </acl>
+        <translate>
+            <modules>
+                <Databunch_Yml>
+                    <files>
+                        <default>Databunch_Yml.csv</default>
+                    </files>
+                </Databunch_Yml>
+            </modules>
+        </translate>
     </adminhtml>
     <global>
         <blocks>
