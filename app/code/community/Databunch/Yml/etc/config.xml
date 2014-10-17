@@ -70,7 +70,7 @@
                     <cron_expr>0 */2 * * *</cron_expr>
                 </schedule>
                 <run>
-                    <model>yml/yml_yandex::generate</model>
+                    <model>yml/yml_yandex::generateCron</model>
                 </run>
             </yml_yandex>
         </jobs>

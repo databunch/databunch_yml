@@ -25,4 +25,13 @@ class Databunch_Yml_Model_Yml_Yandex extends Databunch_Yml_Model_Yml
         $this->_io->streamWrite('</shop>');
         $this->_io->streamWrite('</yml_catalog>');
     }
+
+    protected function generateCron()
+    {
+        $enabled = Mage::getStoreConfig('yml/yandex/enabled');
+        if ($enabled)
+        {
+            $this->generate();
+        }
+    }
 }
