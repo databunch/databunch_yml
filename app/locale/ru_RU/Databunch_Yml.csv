@@ -7,3 +7,6 @@
 "Generate now","Генерация файла"
 "Run","Запустить"
 "Generate YML file for Yandex Market right now","Сгененировать YML файл для Яндекс Маркета прямо сейчас"
+"YML file has been generated and now available at %s","YML файл сгенерирован и теперь доступен по ссылке %s"
+"YML file link","Ссылка на YML файл"
+"Аfter generating YML file will be available at this link","После генерации YML файл будет доступен по этой ссылке"
